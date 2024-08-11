@@ -1,0 +1,85 @@
+.home-top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.home-heading {
+    font-family: Simplon Norm;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 3px;
+
+}
+
+.home-para {
+    font-family: Simplon Norm;
+font-size: 18px;
+font-weight: 400;
+line-height: 40px;
+text-align: center;
+width: 550px;
+
+margin-top: 0px;
+}
+
+.home-detail-container-headers {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 40px 70px; 
+    border-top: 1px solid rgb(212, 210, 210);
+    border-bottom: 1px solid rgb(212, 210, 210);
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.home-detail-header-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+}
+
+.home-detail-header-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.home-detail-cont {
+    margin-left: 40px;
+}
+
+.item-para {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+
+}
+
+.arrow-icons {
+    margin-bottom: -4px;
+    margin-left: 5px;
+}
+
+.hide-button {
+    font-family: Adobe Caslon Pro;
+font-size: 16px;
+font-weight: 400;
+line-height: 40px;
+text-align: right;
+border: none;
+background-color: transparent;
+color: #888792;
+text-decoration: underline;
+}
