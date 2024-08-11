@@ -17,7 +17,6 @@ const Header = () => {
                 <div className='header-div-1'>
                     <img src={Logo} className='logo' alt="logo" />
                     <>
-                    
                     <h1 className='logo-heading'>LOGO</h1>
                     </>
                     <div className='icons-section'>
@@ -27,19 +26,14 @@ const Header = () => {
                         <CgProfile className='icons' />
                         <span className='span'>ENG <FaAngleDown /></span>
                     </div>
-
                 </div>
-                
-                    <ul className='header-list'>
-                        <li className='header-list-items'>SHOPS</li>
-                        <li className='header-list-items'>SKILLS</li>
-                        <li className='header-list-items'>STORIES</li>
-                        <li className='header-list-items'>ABOUT</li>
-                        <li className='header-list-items'>CONTACT US</li>
-                    </ul>
-
-                
-
+                <ul className='header-list'>
+                    <li className='header-list-items'>SHOPS</li>
+                    <li className='header-list-items'>SKILLS</li>
+                    <li className='header-list-items'>STORIES</li>
+                    <li className='header-list-items'>ABOUT</li>
+                    <li className='header-list-items'>CONTACT US</li>
+                </ul>
             </div>
         </div>
     )

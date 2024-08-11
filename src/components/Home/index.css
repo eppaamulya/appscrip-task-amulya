@@ -19,19 +19,19 @@
 
 .home-para {
     font-family: Simplon Norm;
-font-size: 18px;
-font-weight: 400;
-line-height: 40px;
-text-align: center;
-width: 550px;
-
-margin-top: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    width: 550px;
+    margin-top: 0px;
 }
 
 .home-detail-container-headers {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     margin: 40px 70px; 
     border-top: 1px solid rgb(212, 210, 210);
     border-bottom: 1px solid rgb(212, 210, 210);
@@ -51,6 +51,8 @@ margin-top: 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    position: 'relative';
+    
 
 }
 
@@ -60,10 +62,14 @@ margin-top: 0px;
 
 .item-para {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: 16px;
-font-weight: 700;
-line-height: 40px;
-text-align: left;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    border: none;
+    background-color: transparent;
+    padding: '10px 20px';
+     cursor: 'pointer';
 
 }
 
@@ -74,12 +80,20 @@ text-align: left;
 
 .hide-button {
     font-family: Adobe Caslon Pro;
-font-size: 16px;
-font-weight: 400;
-line-height: 40px;
-text-align: right;
-border: none;
-background-color: transparent;
-color: #888792;
-text-decoration: underline;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: right;
+    border: none;
+    background-color: transparent;
+    color: #888792;
+    text-decoration: underline;
 }
+
+.filter-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
